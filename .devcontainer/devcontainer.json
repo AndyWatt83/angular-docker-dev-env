@@ -30,7 +30,13 @@
 		"formulahendry.dotnet",
 		"2gua.rainbow-brackets",
 		"oderwat.indent-rainbow",
-		"donjayamanne.githistory"
+		"donjayamanne.githistory",
+		"raagh.angular-karma-test-explorer",
+		"angular.ng-template",
+		"johnpapa.angular2",
+		"alexiv.vscode-angular2-files",
+		"esbenp.prettier-vscode",
+		"dbaeumer.vscode-eslint"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.

@@ -19,5 +19,9 @@ RUN if [ "$INSTALL_AZURE_CLI" = "true" ]; then bash /tmp/library-scripts/azcli-d
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     && apt-get -y install --no-install-recommends vim
 
+RUN curl -LO https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb \
+&& apt-get install -y ./google-chrome-stable_current_amd64.deb \
+&& rm google-chrome-stable_current_amd64.deb
+
 # [Optional] Uncomment this line to install global node packages.
-# RUN su vscode -c "source /usr/local/share/nvm/nvm.sh && npm install -g <your-package-here>" 2>&1
+RUN su vscode -c "source /usr/local/share/nvm/nvm.sh && npm install -g @angular/cli@12.0.5" 2>&1
