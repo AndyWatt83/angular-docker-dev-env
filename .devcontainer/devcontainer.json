@@ -36,7 +36,9 @@
 		"johnpapa.angular2",
 		"alexiv.vscode-angular2-files",
 		"esbenp.prettier-vscode",
-		"dbaeumer.vscode-eslint"
+		"dbaeumer.vscode-eslint",
+		"shelex.vscode-cy-helper",
+		"coreylight.run-cy"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
