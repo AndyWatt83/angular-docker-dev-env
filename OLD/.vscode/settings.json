@@ -1,0 +1,4 @@
+{
+    "angularKarmaTestExplorer.projectRootPath": "DevContainerTest/ClientApp",
+    "angularKarmaTestExplorer.karmaConfFilePath": "DevContainerTest/ClientApp/karma.conf.js"
+}
