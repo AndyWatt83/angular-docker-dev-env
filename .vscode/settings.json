@@ -1,4 +1,3 @@
 {
-  "angularKarmaTestExplorer.projectRootPath": "test-app",
-  "angularKarmaTestExplorer.karmaConfFilePath": "test-app/karma.conf.js"
+  "karmaTestExplorer.projectRootPath": "test-app",
 }

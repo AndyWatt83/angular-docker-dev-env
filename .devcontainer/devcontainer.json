@@ -8,7 +8,7 @@
 		// Append -bullseye or -buster to pin to an OS version.
 		// Use -bullseye variants on local on arm64/Apple Silicon.
 		"args": { 
-			"VARIANT": "14"
+			"VARIANT": "16-bullseye"
 		}
 	},
 
@@ -18,7 +18,7 @@
 
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
-		"raagh.angular-karma-test-explorer",
+		"lucono.karma-test-explorer",
 		"angular.ng-template",
 		"johnpapa.angular2",
 		"alexiv.vscode-angular2-files",
