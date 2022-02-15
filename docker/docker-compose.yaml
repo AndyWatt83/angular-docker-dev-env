@@ -1,0 +1,18 @@
+version: '3'
+services:
+  database:
+    container_name: e2e-test
+    image: "mcr.microsoft.com/playwright"
+    volumes:
+      - "..:/workspace"
+  dev-env:
+    container_name: dev-env
+    build:
+      context: ./dev-env
+    volumes:
+      - "..:/workspace"
+    stdin_open: true # docker run -i
+    tty: true # docker run -t
+
+volumes:
+  blog-database-data: null
